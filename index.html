@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>First html copy1</title>
+</head>
+<body>
+    <header class="header">
+        <img src="img/me.jpg" class="photo" alt="">
+        <h1 class="header__title">Oleksii Kanilov | CV</h1>
+        <h3 class="sub__title">Frontend Developer</h3>
+    </header>
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. Javascript</li>
+                    <li>4. React</li>
+                    <li>5. TypeScript</li>
+                </ol>
+            </details>
+        </section>
+        <h3>Short article about me</h3>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quos quae quam animi expedita quasi. Corporis repellendus rem voluptatibus aut, odio dolorum perspiciatis numquam dolorem.
+        </article>
+        <h3>Gallery</h3>
+        <section>
+            <img src="img/me.jpg" class="gallery">
+            <img src="img/me.jpg" class="gallery">
+            <img src="img/me.jpg" class="gallery">
+        </section>
+        <hr class="separator">
+        <section>
+        <iframe class="video" src="https://www.youtube.com/embed/N-Fa1tm3oz0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <h3>My hobbies</h3>
+        <details class="hobbies">
+            <summary>Hobbies</summary>
+            <ol>
+                <li>Skiing</li>
+                <li>Video editing</li>
+                <li>Travel</li>
+            </ol>
+        </details>
+        <hr class="separator">
+        <section class="table">
+            <table class="ed__table">
+                <thead>
+                    <th>School / University</th>
+                    <th>Profession</th>
+                    <th>Year</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT School 1</td>
+                        <td>Angular Dev</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>IT School 2</td>
+                        <td>React Dev</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <section class="quote">
+            <blockquote>Действия - это единственный путь к успеху!</blockquote>
+        </section>
+        <br>
+        <section class="interaction">
+            <form action="">
+                <fieldset class="fieldset">
+                <legend>Required fields</legend>
+                <label for="firstNameID">First Name</label>
+                <input type="text" name="" placeholder="type your first name" class="fieldset__input"  id="firstNameID">
+                <label for="lastNameID">Last Name</label>
+                <input type="text" class="fieldset__input" placeholder="type your last name" id="lastNameID">
+                <label for="emailID">Email</label>
+                <input type="email" class="fieldset__input" placeholder="type your email" id="emailID">
+        </fieldset>
+        <br>
+        <textarea name="" cols="40" rows="10" placeholder="type your text" id=""></textarea>
+        <br>
+        <input type="submit"></input>
+            </form>
+        </section>
+    </main>
+    <hr class="separator">
+    <footer>
+        <address>
+            <a href="mailto:it@ukr.net" class="contacts__link">it@ukr.net</a>
+            <br>
+            <br>
+            <a href="tel:+1234567" class="contacts__link">+1234567</a>
+        </address>
+    </footer>
+</body>
+</html>
